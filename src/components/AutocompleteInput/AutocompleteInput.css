@@ -1,3 +1,20 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.list-item {
+  width: 100%;
+  font-weight: 500;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.list-item:hover {
+  background-color: #eee;
+}
 .search {
   flex: 0 0 40%;
   display: flex;
@@ -38,4 +55,12 @@
 
 .search__button:focus {
   outline: none;
+}
+
+.wider {
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
 }
